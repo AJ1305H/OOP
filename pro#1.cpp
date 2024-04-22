@@ -23,7 +23,7 @@ int validateMobileNo(string no)
     string::iterator it;
     for(it = no.begin();it != no.end();it++)
     {
-        iit <= '9' && no.length() == 10)f(*it >= '0' && *
+        if(*it >= '0' && *it <= '9' && no.length() == 10)
         {
 
         }
